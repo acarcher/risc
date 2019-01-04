@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="693960000fs"></ZoomStartTime>
+      <ZoomEndTime time="1019960001fs"></ZoomEndTime>
+      <Cursor1Time time="36600000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/cpu/reg_enable" type="logic">
+      <obj_property name="ElementShortName">reg_enable</obj_property>
+      <obj_property name="ObjectShortName">reg_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/reg_write_enable" type="logic">
+      <obj_property name="ElementShortName">reg_write_enable</obj_property>
+      <obj_property name="ObjectShortName">reg_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rM_sel" type="array">
+      <obj_property name="ElementShortName">rM_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rM_sel[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rM_data" type="array">
+      <obj_property name="ElementShortName">rM_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rM_data[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rN_sel" type="array">
+      <obj_property name="ElementShortName">rN_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rN_sel[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rN_data" type="array">
+      <obj_property name="ElementShortName">rN_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rN_data[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rD_sel" type="array">
+      <obj_property name="ElementShortName">rD_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rD_sel[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rD_data" type="array">
+      <obj_property name="ElementShortName">rD_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rD_data[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/alu_op" type="array">
+      <obj_property name="ElementShortName">alu_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/immediate" type="array">
+      <obj_property name="ElementShortName">immediate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rD_write_enable" type="logic">
+      <obj_property name="ElementShortName">rD_write_enable</obj_property>
+      <obj_property name="ObjectShortName">rD_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rD_write_enable_1" type="logic">
+      <obj_property name="ElementShortName">rD_write_enable_1</obj_property>
+      <obj_property name="ObjectShortName">rD_write_enable_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/cpu_reset" type="logic">
+      <obj_property name="ElementShortName">cpu_reset</obj_property>
+      <obj_property name="ObjectShortName">cpu_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/state" type="array">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/pc_op" type="array">
+      <obj_property name="ElementShortName">pc_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/ram_write_enable" type="logic">
+      <obj_property name="ElementShortName">ram_write_enable</obj_property>
+      <obj_property name="ObjectShortName">ram_write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/address" type="array">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/ram_data_in" type="array">
+      <obj_property name="ElementShortName">ram_data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/ram_data_out" type="array">
+      <obj_property name="ElementShortName">ram_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/fetch_enable" type="logic">
+      <obj_property name="ElementShortName">fetch_enable</obj_property>
+      <obj_property name="ObjectShortName">fetch_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/decoder_enable" type="logic">
+      <obj_property name="ElementShortName">decoder_enable</obj_property>
+      <obj_property name="ObjectShortName">decoder_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/reg_read" type="logic">
+      <obj_property name="ElementShortName">reg_read</obj_property>
+      <obj_property name="ObjectShortName">reg_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/alu_enable" type="logic">
+      <obj_property name="ElementShortName">alu_enable</obj_property>
+      <obj_property name="ObjectShortName">alu_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/ram_enable" type="logic">
+      <obj_property name="ElementShortName">ram_enable</obj_property>
+      <obj_property name="ObjectShortName">ram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/reg_write" type="logic">
+      <obj_property name="ElementShortName">reg_write</obj_property>
+      <obj_property name="ObjectShortName">reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/cpu_clock" type="logic">
+      <obj_property name="ElementShortName">cpu_clock</obj_property>
+      <obj_property name="ObjectShortName">cpu_clock</obj_property>
+   </wvobject>
+</wave_config>

@@ -76,6 +76,8 @@ I(8)/(5) = immediate data bits, 8 or 5
 
 ![Instruction layout](https://i.imgur.com/QfpIVy6.png)
 
+## Demonstration
+
 ### Selected instructions and waveforms
 
 Hardcoded ROM for testing and display purposes; every instruction is executed at least once.
